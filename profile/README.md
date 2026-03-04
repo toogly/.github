@@ -1,1 +1,1 @@
-Terminal-first time tracking for developers.
+**Terminal-first time tracking for developers.**
