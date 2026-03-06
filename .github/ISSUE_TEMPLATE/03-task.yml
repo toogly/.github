@@ -1,0 +1,17 @@
+name: Task
+description: Internal task, refactor, or maintenance
+labels: ["type: chore"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: What needs to be done?
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      placeholder: |
+        - [ ] Criterion 1
+        - [ ] Criterion 2
